@@ -91,7 +91,7 @@ function setup() {
 
     count+=1;
     mcount+=1;
-    if (count == spacing*4){
+    if (count >= spacing*4){
         count = 0;
     }
   }
