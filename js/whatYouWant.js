@@ -17,7 +17,7 @@ function setup() {
     textSize(fSize);
     for (let l = 0; l < msgLines.length; l++){
         var pts = font.textToPoints(msgLines[l], 0, 0, fSize, {
-            sampleFactor: 0.08 + (1920-window.innerWidth)*0.0001, // increase for more points
+            sampleFactor: 0.08 + (1920-window.innerWidth)*0.00003, // increase for more points
             simplifyThreshold: 0.0 // increase to remove collinear points
         });
         lines.push(pts);
