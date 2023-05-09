@@ -59,7 +59,7 @@ function setup() {
   var moveX = -window.innerWidth/10 + window.innerWidth/2;
 
   function draw() {
-    var spacing = 20 + fSize;
+    var spacing = window.innerHeight/7;
     background(0);
     translate(moveX,-spacing-count);
     noStroke();
